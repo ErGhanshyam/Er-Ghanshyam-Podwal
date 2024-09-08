@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://iconscout.com/icons/phone" class="text-underline font-size-sm" target="_blank"></a><a href="https://iconscout.com/contributors/icon-mafia" class="text-underline font-size-sm"></a><a href="https://iconscout.com" class="text-underline font-size-sm"></a>
+</head>
+<body>
+	<div class="container">
+		<div class="site-banner">
+			<div class="header-menu">
+				<h1 class="logomain"> <a href="index.html">TECH<span>with</span>topr</a></h1> 
+				<span id="menu-icon" onClick="toggleMenu()"><img src="images/menu.svg" /></span>
+				<span id="header-right-menu"> 
+					<a href="index.html">HOME</a> 
+					<a href="about.html">ABOUT</a> 
+					<a href="services.html">SERVICES</a>
+					<a href="contact.html" class="header-active">CONTACT US</a>
+					
+				</span>
+			</div>
+			<div>
+				
+			</div>
+			<h1 class="heading">Contact Us</h1>
+		</div><div class="footer">
+			<div class="footer-column"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d110844.05089009782!2d77.30867260000001!3d29.7522846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1725775537548!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			<div class="footer-column">
+				<div class="tile-content">
+					<h1>Meet Us</h1>
+					<div class="contact-row">
+						<img src="phone.svg"><span class="tile-field">7417829335, 9870843485</span>
+					</div>
+					<div class="contact-row">
+						<img src="mail.svg">   <span class="tile-field">topr30@gmail.com</span>
+					</div>
+					<div class="contact-row">
+						<img src="home.png" class="home-logo"><span class="tile-field">Vill, kalsi,distt-saharanpur(U:P:)</span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer-column contact-form-container">
+				<div class="tile-content">
+					<form method="POST">
+						<h1>Contact</h1>
+						<div class="contact-row">
+							<input type="text" class="form-field" placeholder="Name">
+						</div>
+						<div class="contact-row">
+							<textarea rows="5" class="form-field" placeholder="Message"></textarea>
+						</div>
+						<button class="button-send">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-1">
+        <div class="footer-logo" ><h1 class="logomain"> <a href="index.html">TECH<span>with</span>topr</a></h1>
+        <p> this is a web devolopments site for bigginers.</p>
+        </div>
+        <div class="footer-services">
+            <h2>Our SERVICES:</h2>
+            <ul>
+                <li class="FOOTER-NAV"><a href="">HTML</a></li>
+                <li class="FOOTER-NAV"><a href="">CSS</a></li>
+                <li class="FOOTER-NAV"><a href="">BOOTSTRAP</a></li>
+                <li class="FOOTER-NAV"><a href="">JAVASCRIPTS</a></li>
+                <li class="FOOTER-NAV"><a href="">REACTS</a></li>
+                <li class="FOOTER-NAV"><a href="">NODE JS</a></li>
+               
+            </ul>
+        </div>
+        <div class="get-in">
+            <h2>Get In touch</h2>
+            <div class="socil-icons">
+                <div><a href="#" class="fa fa-facebook"></a></div>
+                <div><a href="#" class="fa fa-instagram"></a></div>
+                <div><a href="#" class="fa fa-linkedin-square"></a></div>
+                <div><a href="#" class="fa fa-whatsapp"></a></div>
+            </div>
+
+        </div>
+
+    </footer>
+    <footer class="footer2">
+        <div>
+            <p>@2024 techwithtopr, All rights reserved.</p>
+        </div>
+
+    </footer>
+
+	<script>
+		function toggleMenu() {
+			var menuElement = document.getElementById("header-right-menu");
+			if (menuElement.style.display === "block") {
+				menuElement.style.display = "none";
+			} else {
+				menuElement.style.display = "block";
+			}
+		}
+		
+		function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.2),
+        zoom: 10
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+	</script>
+</body>
+</html>

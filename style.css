@@ -1,0 +1,412 @@
+
+        body{
+            padding:0px;
+            margin: 0px;
+        }
+.nav1{
+    width:100%;
+    height:80px;
+    background-color:black;
+   display: inline-flex;
+    
+}
+.logomain {
+    width: 23%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.logomain span {
+    color: orange;
+}
+
+.menu1{
+    width: 60%;
+}
+.menu1 ul{
+    display: inline-flex;
+    float: right;
+}
+.menu1 ul li{ 
+    padding:10px;
+    margin-left:20px;
+    list-style: none;
+}
+
+.menu1 ul li a{ 
+    text-decoration:none;
+    color: white;
+}
+.menu1 ul li a:hover{
+    color:orange;
+}
+.main_text{
+
+    margin-left: 70px;
+    width: 50%;
+    padding-right: 22px;
+}
+.intro{
+    display:flex;
+}
+.image_logo{
+    float: right;
+    
+}
+.image_logo img{
+    border-radius:50%;
+}
+.main_text h1{
+    font-size: 25px;
+    font-family: ari;
+    letter-spacing: 2px;
+}
+.main_text h3{
+    font-size: 24px;
+    font-family: ari;
+    text-align: justify;
+}
+.about_1{
+    font-size: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+    padding-right: 90px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.det{
+    margin-top: -19px;
+    color: #ad9a9a;
+    font-style: italic;
+}
+.SERVICES_1{
+    margin-left:70px;
+    margin-top:100px;
+    margin-bottom: 50px;
+	color:black;
+
+
+
+}
+.ser_text{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.details_ser img{
+    width: 100%;
+
+}
+.main_text1{
+    display:flex;
+}
+.main_servive{
+    width: 100%;
+}
+.main_servive {
+    width: 100%;
+    box-shadow:2px 2px 10px #625858;
+    margin-right: 60px;
+    margin-top: 50px;
+    height: 400px;
+    padding:10px;
+}
+.main_servive h1{
+    font-size: 20px;
+}
+.learn-more{
+    background: orange;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px; 
+    text-transform:capitalize;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.footer-1{
+    height: 200px;
+    margin-top:100px;
+    background-color: black;
+    color: white;
+    padding:10px;
+    display:flex;
+    border-bottom:2px solid white;
+    padding-bottom: 50px;
+}
+.login-btn {
+    padding: 10px 10px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.login-btn:hover{
+    background-color: white;
+    color: orange;
+}
+.learn-more:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}
+p.title-service {
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer1 {
+    font-size:30px;
+    text-align: left;
+
+}
+    .footer-logo {
+        text-align: left;
+        margin-left: 60px;
+        border-right: 2px solid white;
+        padding-right: 30px;
+    }
+
+.footer-logo p{
+    font-size: 20px;
+    text-align: right;
+    text-transform: capitalize;
+
+}
+li {
+    list-style: none;
+}
+.FOOTER-NAV{
+    padding-bottom: 10px;
+}
+.FOOTER-NAV a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
+}
+.FOOTER-NAV a:hover{
+    color: orange;
+}
+.footer-services h2 {
+    text-transform: uppercase;
+    margin-left: 35px;
+    font-size: 25px;
+
+}
+.footer1 span{
+    color: orange;
+}
+
+.footer-services {
+    border-right: 2px solid white;
+    padding-right: 100px;
+}
+.main_servive p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #7c6868;
+    padding-bottom:10px;
+}
+.socil-icons {
+    display: flex;
+    margin-left: 50px;
+}
+.socil-icons a {
+    padding: 8px 10px 4px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.get-in h2 {
+    margin-left: 50px;
+    font-size: 29px;
+    text-transform: capitalize;
+}
+.socil-icons div {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 10px;
+}
+.socil-icons {
+    display: flex;
+    margin-left: 50px;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+footer.footer2 {
+    font-size: 15px;
+    background-color: black;
+    padding: 20px;
+    color: #cbcbcb;
+    text-align: center;
+}
+
+body {
+	font-family: Arial;
+}
+
+.container {
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+/*  header style starts */
+
+
+
+.site-banner {
+    background-color: black;
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+}
+
+.site-banner a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px 12px;
+}
+
+.header-menu {
+	padding: 0px 20px;
+}
+
+#header-right-menu {
+	float: right;
+    margin-top:-50px;
+}
+
+.header-active {
+	background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.heading {
+	color: #ffffff;
+	text-align: center;
+	padding: 40px 0px;
+	font-size: 3em;
+	margin: 0px;
+}
+
+/*  header style ends */
+
+.footer {
+	display: flex;
+}
+
+.footer-column {
+	width: 33.3%;
+	float: left;
+}
+
+.map-image {
+	width: 100%;
+}
+
+.contact-form-container {
+	background-color: orange;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.tile-content {
+	padding: 20px 40px;
+}
+
+.tile-content .contact-row {
+	margin-bottom: 20px;
+}
+
+.tile-field {
+	margin-left: 20px;
+}
+
+.form-field {
+	width: 100%;
+	padding: 10px 8px;
+    border-radius: 4px;
+    border: #d9d8d8 1px solid;
+}
+
+.button-send {
+	color: #ffffff;
+	padding: 10px 30px 10px 30px;
+	border-radius: 20px;
+	background: linear-gradient(to right, #08a9df, #12054a);
+	border: 0px;
+}
+
+#menu-icon {
+	display: none;
+	float: right;
+}
+
+@media screen and (max-width: 1000px) {
+	.footer-column {
+		width: 50%;
+	}
+	.contact-form-container {
+		width: 100%;
+	}
+	.footer {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#header-right-menu {
+		float: none;
+		display: none;
+	}
+	#header-right-menu a {
+		display: block;
+	}
+	.heading {
+		padding: 0px;
+	}
+	.tile-content {
+    	padding: 0px 20px;
+	}
+
+	.footer-column {
+		width: 100%;
+	}
+	
+	#menu-icon {
+		display: block;
+		float: right;
+	}
+}
+.contact-logo {
+    font-size: 25px;
+    margin-left: 70px;
+}
+.contact-logo span{
+    color: orange;
+}
+.home-logo {
+    width: 37px;
+}
+.logomain a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.socil-icons div:hover{
+    background-color: orange;
+    color: white;
+}
